@@ -1,15 +1,10 @@
-// import React from "react";
-// const Card = ({ rank, suit }) => {
-const Card = () => {
-  // const imagePath = `src/assets/cards/${rank}_of_${suit}.png`; // Adjust the path based on your asset structure
+import React from "react";
+import "../styles/card.css";
 
-  return (
-    <img
-      // src={imagePath}
-      // alt={`${rank} of ${suit}`}
-      style={{ width: "100px", height: "150px", margin: "5px" }}
-    />
-  );
+const Card = ({ rank, suit }) => {
+  const imagePath = `src/assets/cards/${rank}_of_${suit}.png`;
+
+  return <img className="card" src={imagePath} alt={`${rank} of ${suit}`} />;
 };
 
 export default Card;

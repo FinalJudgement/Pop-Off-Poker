@@ -1,0 +1,12 @@
+#options {
+  margin-left: 50px;
+}
+
+#options button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 20px;
+  min-width: 80px;
+  background-color: rgb(51, 128, 177);
+  color: white;
+}
